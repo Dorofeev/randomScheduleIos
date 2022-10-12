@@ -1,0 +1,77 @@
+PODS:
+  - CalendarKit (1.1.5)
+  - Coordinators (2.0.7):
+    - RxSwift
+  - DatePickerDialog (4.0)
+  - FSCalendar (2.8.4)
+  - RandomKit (5.2.3):
+    - ShiftOperations (~> 1.0.2)
+    - Threadly (~> 1.0)
+  - Realm (10.28.2):
+    - Realm/Headers (= 10.28.2)
+  - Realm/Headers (10.28.2)
+  - RealmSwift (10.28.2):
+    - Realm (= 10.28.2)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - ShiftOperations (1.0.2)
+  - Threadly (1.2.0)
+
+DEPENDENCIES:
+  - CalendarKit
+  - Coordinators (= 2.0.7)
+  - DatePickerDialog (from `https://github.com/Dorofeev/DatePickerDialog-iOS-Swift.git`)
+  - FSCalendar (= 2.8.4)
+  - RandomKit (from `https://github.com/Dorofeev/RandomKit.git`)
+  - RealmSwift (= 10.28.2)
+  - RxCocoa (= 6.5.0)
+  - RxSwift (= 6.5.0)
+
+SPEC REPOS:
+  trunk:
+    - CalendarKit
+    - Coordinators
+    - FSCalendar
+    - Realm
+    - RealmSwift
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - ShiftOperations
+    - Threadly
+
+EXTERNAL SOURCES:
+  DatePickerDialog:
+    :git: https://github.com/Dorofeev/DatePickerDialog-iOS-Swift.git
+  RandomKit:
+    :git: https://github.com/Dorofeev/RandomKit.git
+
+CHECKOUT OPTIONS:
+  DatePickerDialog:
+    :commit: ecd1b76e4f5e0ecd1c6763b263d3d6335b4e2dbf
+    :git: https://github.com/Dorofeev/DatePickerDialog-iOS-Swift.git
+  RandomKit:
+    :commit: 574b3b8b5e281e474c11d6e380c0e0fe748fec18
+    :git: https://github.com/Dorofeev/RandomKit.git
+
+SPEC CHECKSUMS:
+  CalendarKit: 9edd17c9aeaeb91fb53075729f6ce50b12617db5
+  Coordinators: 38fbe12dc21e0e870b41fd2a581196dab796037b
+  DatePickerDialog: ccff2f91ff7a018057a4d72fa5ad6de49c8cb0cd
+  FSCalendar: 2d1d0d9398f12d439f55c1fe0f01525b151b8260
+  RandomKit: e1ca01dea55913637cea96e25b3dffd37bdb674d
+  Realm: e617c54ad0f566b3d0f6a2abae7010de05f252ac
+  RealmSwift: 8a516a8759d80d52ebcec1ff1076f5f5159f98b2
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  ShiftOperations: 702c9aa98d3b20d98dceb71dd8437b562f7ab3ad
+  Threadly: b772ed7c1ff4a3f03eb4600bbc5ef83b3be5cb29
+
+PODFILE CHECKSUM: d5def6287a637f44aa7e2d77d078f8e44c54dd9f
+
+COCOAPODS: 1.11.3

@@ -7,23 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4922730728CC8AE4009A89D4 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922730628CC8AE4009A89D4 /* MainCoordinator.swift */; };
+		4922730A28CC8CE6009A89D4 /* CalendarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922730928CC8CE6009A89D4 /* CalendarCoordinator.swift */; };
+		4922730C28CC8CF1009A89D4 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922730B28CC8CF1009A89D4 /* CalendarViewModel.swift */; };
+		4922730E28CC8CF9009A89D4 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922730D28CC8CF9009A89D4 /* CalendarViewController.swift */; };
+		4922731028CC96A5009A89D4 /* EventsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922730F28CC96A5009A89D4 /* EventsService.swift */; };
+		4922731228CC96AA009A89D4 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922731128CC96AA009A89D4 /* Event.swift */; };
+		4922731528CCA07B009A89D4 /* Randomizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922731428CCA07B009A89D4 /* Randomizer.swift */; };
+		4922731828CCA1A6009A89D4 /* Date+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4922731728CCA1A6009A89D4 /* Date+ext.swift */; };
 		49EC1C6828CB06620072913B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1C6728CB06620072913B /* AppDelegate.swift */; };
-		49EC1C6A28CB06620072913B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1C6928CB06620072913B /* SceneDelegate.swift */; };
 		49EC1C6C28CB06620072913B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1C6B28CB06620072913B /* ViewController.swift */; };
 		49EC1C6F28CB06620072913B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49EC1C6D28CB06620072913B /* Main.storyboard */; };
 		49EC1C7128CB06620072913B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49EC1C7028CB06620072913B /* Assets.xcassets */; };
 		49EC1C7428CB06620072913B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49EC1C7228CB06620072913B /* LaunchScreen.storyboard */; };
+		49EC1C7D28CB06960072913B /* TaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1C7C28CB06960072913B /* TaskService.swift */; };
+		49EC1C7F28CB07100072913B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1C7E28CB07100072913B /* Task.swift */; };
+		49EC1C8528CB08D00072913B /* TaskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1C8428CB08D00072913B /* TaskListViewModel.swift */; };
+		49EC1C8A28CB1ADD0072913B /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1C8928CB1ADD0072913B /* TaskListView.swift */; };
+		49EC1C8C28CB1B6C0072913B /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1C8B28CB1B6C0072913B /* TaskListViewController.swift */; };
+		49EC1C8E28CB1BE60072913B /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1C8D28CB1BE60072913B /* TaskTableViewCell.swift */; };
+		49EC1C9028CB1DFA0072913B /* TaskCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1C8F28CB1DFA0072913B /* TaskCoordinator.swift */; };
+		49EC1C9328CB2E850072913B /* TaskEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1C9228CB2E850072913B /* TaskEditViewModel.swift */; };
+		49EC1C9528CB317F0072913B /* TaskEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1C9428CB317F0072913B /* TaskEditViewController.swift */; };
+		49EC1C9928CB34CD0072913B /* TaskEditCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EC1C9828CB34CD0072913B /* TaskEditCoordinator.swift */; };
+		D29B5A5991357A65AB92C691 /* Pods_RandomSchedule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12819E1DF26A24592ED02CB /* Pods_RandomSchedule.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A4327208C9F3691FE094F34 /* Pods-RandomSchedule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomSchedule.release.xcconfig"; path = "Target Support Files/Pods-RandomSchedule/Pods-RandomSchedule.release.xcconfig"; sourceTree = "<group>"; };
+		4922730628CC8AE4009A89D4 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		4922730928CC8CE6009A89D4 /* CalendarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCoordinator.swift; sourceTree = "<group>"; };
+		4922730B28CC8CF1009A89D4 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		4922730D28CC8CF9009A89D4 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		4922730F28CC96A5009A89D4 /* EventsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsService.swift; sourceTree = "<group>"; };
+		4922731128CC96AA009A89D4 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		4922731428CCA07B009A89D4 /* Randomizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Randomizer.swift; sourceTree = "<group>"; };
+		4922731728CCA1A6009A89D4 /* Date+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+ext.swift"; sourceTree = "<group>"; };
 		49EC1C6428CB06620072913B /* RandomSchedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomSchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49EC1C6728CB06620072913B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		49EC1C6928CB06620072913B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		49EC1C6B28CB06620072913B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		49EC1C6E28CB06620072913B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49EC1C7028CB06620072913B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49EC1C7328CB06620072913B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49EC1C7528CB06620072913B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49EC1C7C28CB06960072913B /* TaskService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskService.swift; sourceTree = "<group>"; };
+		49EC1C7E28CB07100072913B /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		49EC1C8428CB08D00072913B /* TaskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
+		49EC1C8928CB1ADD0072913B /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		49EC1C8B28CB1B6C0072913B /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
+		49EC1C8D28CB1BE60072913B /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		49EC1C8F28CB1DFA0072913B /* TaskCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCoordinator.swift; sourceTree = "<group>"; };
+		49EC1C9228CB2E850072913B /* TaskEditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditViewModel.swift; sourceTree = "<group>"; };
+		49EC1C9428CB317F0072913B /* TaskEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditViewController.swift; sourceTree = "<group>"; };
+		49EC1C9828CB34CD0072913B /* TaskEditCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditCoordinator.swift; sourceTree = "<group>"; };
+		A12819E1DF26A24592ED02CB /* Pods_RandomSchedule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RandomSchedule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCB5BC17D48434EE5B562CC /* Pods-RandomSchedule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomSchedule.debug.xcconfig"; path = "Target Support Files/Pods-RandomSchedule/Pods-RandomSchedule.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +69,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D29B5A5991357A65AB92C691 /* Pods_RandomSchedule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4922730828CC8CD5009A89D4 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				4922730928CC8CE6009A89D4 /* CalendarCoordinator.swift */,
+				4922730B28CC8CF1009A89D4 /* CalendarViewModel.swift */,
+				4922730D28CC8CF9009A89D4 /* CalendarViewController.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		4922731628CCA19F009A89D4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4922731728CCA1A6009A89D4 /* Date+ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		49EC1C5B28CB06620072913B = {
 			isa = PBXGroup;
 			children = (
 				49EC1C6628CB06620072913B /* RandomSchedule */,
 				49EC1C6528CB06620072913B /* Products */,
+				85C12A5BC65A708D30D44C6E /* Pods */,
+				B5CE1A40498BE92FA87A02DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +115,10 @@
 		49EC1C6628CB06620072913B /* RandomSchedule */ = {
 			isa = PBXGroup;
 			children = (
+				4922731628CCA19F009A89D4 /* Extensions */,
+				49EC1C8028CB07C40072913B /* Screen */,
+				49EC1C7B28CB068D0072913B /* Model */,
 				49EC1C6728CB06620072913B /* AppDelegate.swift */,
-				49EC1C6928CB06620072913B /* SceneDelegate.swift */,
 				49EC1C6B28CB06620072913B /* ViewController.swift */,
 				49EC1C6D28CB06620072913B /* Main.storyboard */,
 				49EC1C7028CB06620072913B /* Assets.xcassets */,
@@ -67,6 +128,68 @@
 			path = RandomSchedule;
 			sourceTree = "<group>";
 		};
+		49EC1C7B28CB068D0072913B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49EC1C7C28CB06960072913B /* TaskService.swift */,
+				4922731428CCA07B009A89D4 /* Randomizer.swift */,
+				49EC1C7E28CB07100072913B /* Task.swift */,
+				4922730F28CC96A5009A89D4 /* EventsService.swift */,
+				4922731128CC96AA009A89D4 /* Event.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49EC1C8028CB07C40072913B /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				4922730828CC8CD5009A89D4 /* Calendar */,
+				49EC1C9128CB2E700072913B /* TaskEdit */,
+				49EC1C8128CB07C90072913B /* TaskList */,
+				4922730628CC8AE4009A89D4 /* MainCoordinator.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		49EC1C8128CB07C90072913B /* TaskList */ = {
+			isa = PBXGroup;
+			children = (
+				49EC1C8428CB08D00072913B /* TaskListViewModel.swift */,
+				49EC1C8D28CB1BE60072913B /* TaskTableViewCell.swift */,
+				49EC1C8928CB1ADD0072913B /* TaskListView.swift */,
+				49EC1C8B28CB1B6C0072913B /* TaskListViewController.swift */,
+				49EC1C8F28CB1DFA0072913B /* TaskCoordinator.swift */,
+			);
+			path = TaskList;
+			sourceTree = "<group>";
+		};
+		49EC1C9128CB2E700072913B /* TaskEdit */ = {
+			isa = PBXGroup;
+			children = (
+				49EC1C9228CB2E850072913B /* TaskEditViewModel.swift */,
+				49EC1C9428CB317F0072913B /* TaskEditViewController.swift */,
+				49EC1C9828CB34CD0072913B /* TaskEditCoordinator.swift */,
+			);
+			path = TaskEdit;
+			sourceTree = "<group>";
+		};
+		85C12A5BC65A708D30D44C6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCCB5BC17D48434EE5B562CC /* Pods-RandomSchedule.debug.xcconfig */,
+				1A4327208C9F3691FE094F34 /* Pods-RandomSchedule.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B5CE1A40498BE92FA87A02DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A12819E1DF26A24592ED02CB /* Pods_RandomSchedule.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49EC1C7828CB06620072913B /* Build configuration list for PBXNativeTarget "RandomSchedule" */;
 			buildPhases = (
+				872427B47C305F6A9F469FB3 /* [CP] Check Pods Manifest.lock */,
 				49EC1C6028CB06620072913B /* Sources */,
 				49EC1C6128CB06620072913B /* Frameworks */,
 				49EC1C6228CB06620072913B /* Resources */,
+				DD2409C35B1C91B171E76C3D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -93,7 +218,7 @@
 		49EC1C5C28CB06620072913B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
@@ -133,14 +258,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		872427B47C305F6A9F469FB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RandomSchedule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD2409C35B1C91B171E76C3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RandomSchedule/Pods-RandomSchedule-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RandomSchedule/Pods-RandomSchedule-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RandomSchedule/Pods-RandomSchedule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		49EC1C6028CB06620072913B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4922730E28CC8CF9009A89D4 /* CalendarViewController.swift in Sources */,
+				49EC1C8528CB08D00072913B /* TaskListViewModel.swift in Sources */,
+				49EC1C9928CB34CD0072913B /* TaskEditCoordinator.swift in Sources */,
+				49EC1C9328CB2E850072913B /* TaskEditViewModel.swift in Sources */,
+				49EC1C7D28CB06960072913B /* TaskService.swift in Sources */,
+				4922731528CCA07B009A89D4 /* Randomizer.swift in Sources */,
+				49EC1C8E28CB1BE60072913B /* TaskTableViewCell.swift in Sources */,
+				49EC1C9028CB1DFA0072913B /* TaskCoordinator.swift in Sources */,
 				49EC1C6C28CB06620072913B /* ViewController.swift in Sources */,
+				49EC1C7F28CB07100072913B /* Task.swift in Sources */,
+				4922730A28CC8CE6009A89D4 /* CalendarCoordinator.swift in Sources */,
+				4922731228CC96AA009A89D4 /* Event.swift in Sources */,
+				4922731028CC96A5009A89D4 /* EventsService.swift in Sources */,
+				4922730C28CC8CF1009A89D4 /* CalendarViewModel.swift in Sources */,
 				49EC1C6828CB06620072913B /* AppDelegate.swift in Sources */,
-				49EC1C6A28CB06620072913B /* SceneDelegate.swift in Sources */,
+				49EC1C8C28CB1B6C0072913B /* TaskListViewController.swift in Sources */,
+				4922730728CC8AE4009A89D4 /* MainCoordinator.swift in Sources */,
+				49EC1C8A28CB1ADD0072913B /* TaskListView.swift in Sources */,
+				49EC1C9528CB317F0072913B /* TaskEditViewController.swift in Sources */,
+				4922731828CCA1A6009A89D4 /* Date+ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +466,7 @@
 		};
 		49EC1C7928CB06620072913B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCCB5BC17D48434EE5B562CC /* Pods-RandomSchedule.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +480,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +496,7 @@
 		};
 		49EC1C7A28CB06620072913B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A4327208C9F3691FE094F34 /* Pods-RandomSchedule.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +510,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
